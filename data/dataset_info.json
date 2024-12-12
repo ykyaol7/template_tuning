@@ -1,0 +1,11 @@
+{
+  "cogs":{
+    "file_name": "cogs/train.json"
+  },
+  "cogs_base":{
+    "file_name": "cogs_base/train.json"
+  },
+  "cogs_gen":{
+    "file_name": "cogs/gen.json"
+  }
+}

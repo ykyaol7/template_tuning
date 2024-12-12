@@ -1,0 +1,17 @@
+input: Emma ate the ring beside a bed .
+prediction: eat ( agent = Emma , theme = ring ( nmod . beside = bed ) )
+backtranslation: Emma ate a ring beside a bed .
+feedback: The backtranslation is not semantically equivalent to the input because 'the ring' is predicted as 'a ring'. This suggests that the prediction is incorrect becuase 'ring' should be modified with *.
+output: eat ( agent = Emma , theme = * ring ( nmod . beside = bed ) )
+
+input: Charlotte was passed a cake .
+prediction: pass ( recipient = Charlotte , theme = cake )
+backtranslation: A cake was passed to Charlotte .
+feedback: The backtranslation is semantically equivalent to the input. The prediction is correct.
+output: pass ( recipient = Charlotte , theme = cake )
+
+input: Liam was passed a book .
+prediction: pass ( agent = Liam , theme = book )
+backtranslation: Liam passed a book .
+feedback: The backtranslation is not semantically equivalent to the input because 'Liam' is predicted as 'agent'. This suggests that the prediction is incorrect becuase 'Liam' should be the 'recipient'.
+output: pass ( recipient = Liam , theme = book )

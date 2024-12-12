@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="c13c4d02-68e9-4f18-885d-8bffa7141513" name="tony-2">
+        <fileTransfer accessType="SFTP" host="tony-2" port="22" sshConfigId="22b70a4f-ad66-405d-9f13-d50d15966d91" sshConfig="ykyao@tony-2:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="80639a87-dde9-4084-b115-7aae3d6a8dcc" name="tony-3">
+        <fileTransfer accessType="SFTP" host="tony-3" port="22" sshConfigId="18842eaa-bf51-4293-9a15-dda64f4657a7" sshConfig="ykyao@tony-3:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="87d8ef0c-bd20-409d-b8bd-56a1fd66a051" name="tony-1">
+        <fileTransfer accessType="SFTP" host="tony-1" port="22" sshConfigId="280895b9-213f-4c44-841b-2b5a684cd639" sshConfig="ykyao@tony-1:22">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+    <groups>
+      <group>
+        <name>coli</name>
+        <servers>
+          <name value="tony-2" />
+          <name value="tony-3" />
+          <name value="tony-1" />
+        </servers>
+      </group>
+    </groups>
+  </component>
+</project>

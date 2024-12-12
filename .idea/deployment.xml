@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" autoUpload="Always" serverName="coli" remoteFilesAllowedToDisappearOnAutoupload="false">
+    <serverData>
+      <paths name="tony-1">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/local/ykyao/projects/template_tuning" local="$PROJECT_DIR$" web="/" />
+            <mapping local="" />
+            <mapping local="" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="tony-2">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/local/ykyao/projects/template_tuning" local="$PROJECT_DIR$" web="/" />
+            <mapping local="" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="tony-3">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/local/ykyao/projects/template_tuning" local="$PROJECT_DIR$" web="/" />
+            <mapping local="" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+    <option name="myAutoUpload" value="ALWAYS" />
+  </component>
+</project>
